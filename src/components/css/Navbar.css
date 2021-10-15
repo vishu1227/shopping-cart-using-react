@@ -1,0 +1,27 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    position: fixed;
+    width: 100vw;
+}
+
+nav::before{
+    content: '';
+    z-index: -1;
+    background-color: rgb(214, 214, 214);
+    height: 55px;
+    width: 100vw;
+    position: absolute;
+    top: 0%;
+}
+
+nav button{
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+nav button:hover{
+    cursor: pointer;
+}
