@@ -1,3 +1,9 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Lexend Mega', sans-serif;
+    letter-spacing: 2px;
+}
 nav{
     display: flex;
     flex-direction: row;
@@ -5,6 +11,7 @@ nav{
     padding-bottom: 1%;
     position: fixed;
     width: 100vw;
+    font-size: 20px;
 }
 
 nav::before{
@@ -19,9 +26,53 @@ nav::before{
 
 nav button{
     background-color: transparent;
-    outline: none;
     border: none;
+    font-size: 21px;
+    margin-left: 11%;
+    z-index: 1;
+    margin-top: 0%;
+    height: fit-content;
 }
 nav button:hover{
     cursor: pointer;
+}
+nav button:focus{
+    outline: none;
+}
+#heading{
+    width:fit-content;
+    position: absolute;
+    /* margin-left: 45vw; */
+    letter-spacing: .02em;
+    width: 100%;
+    text-align: center;
+    align-self: center;
+}
+#heading p span{
+    color: orange;
+}
+.openLeft{
+    padding: 0px 0px;
+}
+.openLeft:focus{
+    outline: none;
+}
+.openLeft:hover{
+    cursor: pointer;
+}
+.Cart{
+    float: right;
+    margin-left: auto;
+    margin-right: 12%;
+    height: fit-content;
+    width: fit-content;
+}
+nav i{
+    width: fit-content;
+    margin-left: 65%;
+    float: right;
+    left: 31px;
+    top: -7px;
+    position: relative;
+    background-color: orange;
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import "./css/Navbar.css";
-import Cart from "./cart"; 
+import Cart from "./cart";
 export default function Navbar() {
   return (
     <nav>
@@ -12,13 +12,13 @@ export default function Navbar() {
           Comfy<span>House</span>
         </p>
       </div>
-      <button>
         <i>
           <p id="cart_items">0</p>
         </i>
-        <Cart/>
-        My Cart
-      </button>
+        <button className="Cart">
+          <Cart/>
+          My Cart
+        </button>
     </nav>
   );
 }
