@@ -1,0 +1,72 @@
+#welcome_page{
+
+    height: 100vh;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    align-self: center;
+}
+#shop_now{
+    position: relative;
+    height: fit-content;
+    width: 42%;
+    top: 30%;
+    text-align: center;
+    /* Important point changing the background-color opactiy only */
+    background-color: rgb(255, 255, 255,0.7);
+    /* opacity: 0.7; */
+    font-size: 25px;
+    padding: 20px;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto auto;
+}
+#shop_now h1{
+    font-weight: bold;
+}
+#shop_now button{
+
+    color: black;
+    margin: 20px;
+    padding: 10px;
+    /* background-color: rgb(252, 167, 71); */
+    background-color: rgb(255, 165, 0);
+    border: none;
+    border: 0.5px solid black;
+    opacity: 1;
+    transition: transform 1s;
+    transform-origin: center;
+    text-decoration: none;
+}
+
+#shop_now button a{
+    color: black;
+    text-decoration: none;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+
+#shop_now button a:hover{
+    color: white;
+    /* text-decoration: none; */
+    /* font-weight: bolder; */
+}
+
+#shop_now button:focus{
+    outline: none;
+}
+#welcome_page::before{
+    content: '';
+    z-index: -1;
+    position: absolute;
+    background: url('../Images/hero-bcg.jpeg') center center no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.totalcost{
+    position: relative;
+    top: 25px;
+    left: 40px;
+}
