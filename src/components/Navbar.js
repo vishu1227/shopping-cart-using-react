@@ -12,13 +12,13 @@ export default function Navbar() {
           Comfy<span>House</span>
         </p>
       </div>
-        <i>
-          <p id="cart_items">0</p>
-        </i>
-        <button className="Cart">
-          <Cart/>
-          My Cart
-        </button>
+      <i>
+        <p id="cart_items">0</p>
+      </i>
+      <button className="Cart">
+        <Cart />
+        My Cart
+      </button>
     </nav>
   );
 }
