@@ -1,7 +1,7 @@
 import React from "react";
-import './css/Welcome_page.css'
+import './css/WelcomePage.css'
 
-export default function Welcome_page() {
+export default function WelcomePage() {
   return (
     <section id="welcome_page">
       <div id="shop_now">
